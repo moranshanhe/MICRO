@@ -1,0 +1,209 @@
+html {
+    min-width: 1200px;
+    overflow-x: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    background-color: #efe6ce;
+}
+
+div.center {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar {
+    width: 15rem;
+    height: 100vh;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    background: #73876a;
+}
+
+#navbar_title {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 2rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3rem;
+    color: #efe6ce;
+}
+
+button.navbarButton {
+    width: 15rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.5rem;
+    color: #efe6ce;
+}
+
+#hanshan1 {
+    width: 60rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#profile {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    border: 2px solid;
+    border-color: #73876a;
+    margin-left: 5rem;
+    overflow: hidden;
+    float: left;
+}
+
+#profilePhoto {
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+}
+
+#sentence {
+    width: 40rem;
+    height: 10rem;
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+    float: left;
+}
+
+#sentence_English {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.8rem;
+    color: #73876a;
+}
+
+#sentence_formula {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+#sentence_Chinese {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: -1rem;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.2rem;
+    color: #73876a;
+}
+
+#temM1 {
+    display: none;
+}
+
+#temM3 {
+    display: none;
+}
+
+#temM6 {
+    display: none;
+}
+
+span.English {
+    font-family: 'Satisfy', cursive;
+}
+
+span.move {
+    margin-left: 2rem;
+}
+
+#introduction {
+    clear: both;
+}
+
+div.basic {
+    margin-left: 6rem;
+}
+
+#tem1 {
+    padding-top: 2rem;
+}
+
+p.introduction_B {
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #56654f;
+}
+
+p.introduction {
+    line-height: 1.6rem;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.2rem;
+    color: #56654f;
+}
+
+#hanshan2 {
+    width: 60rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#hanshan3 {
+    width: 60rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+a.link {
+    text-decoration: none;
+    font-family: 'cwTeXFangSong', serif;
+    font-size: 1.2rem;
+    color: #73876a;
+}
+
+a.link:hover {
+    text-decoration: underline;
+    color: #56654f;
+}
+
+#hanshan4 {
+    width: 60rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#hanshan5 {
+    width: 60rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#hanshan6 {
+    width: 60rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+button.copyButton {
+    width: 5rem;
+    height: 1.5rem;
+    background-color: #56654f;
+    color: #efe6ce;
+    cursor: pointer;
+    border: none;
+}
